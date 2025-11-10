@@ -1,16 +1,19 @@
-# mindmate_frontend
+# MindMate Backend
 
-A new Flutter project.
+A Node.js + Express + MySQL backend for MindMate — an AI-driven mental health assistant.
 
-## Getting Started
+## Features
+- User authentication (JWT)
+- Mood tracking (CRUD)
+- Meditation management
+- AI chat logging
+- Secure MySQL database via Sequelize ORM
 
-This project is a starting point for a Flutter application.
+## Run Locally
+1. Clone this repo
+2. Run `npm install`
+3. Create `.env` (see example in docs)
+4. Run server: `npm start`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Folder Structure
+See `/src` for controllers, models, routes, and middleware.
